@@ -2,7 +2,7 @@ import unittest
 
 
 def add(x, y):
-  return x ** y
+  return x + y
 
 
 
@@ -12,10 +12,10 @@ class TriangleTests(unittest.TestCase):
 
     #do whatever you want
 
-    self.assertFalse(add(1.0, 2), 3)
-    self.assertFalse(add(1, 2), 3)
-    self.assertTrue(add(4, 8), 12)
-    self.assertTrue(add(5, 1), 6)
+    self.assertEqual(add(1.0, 2), 3)
+    self.assertEqual(add(1, 2), 3)
+    self.assertEqual(add(4, 8), 12)
+    self.assertEqual(add(5, 1), 6)
 
     
 
