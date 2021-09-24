@@ -1,11 +1,7 @@
 import unittest
 
-
 def add(x, y):
   return x + y
-
-
-
 
 class TriangleTests(unittest.TestCase):
   def test_addition(self):

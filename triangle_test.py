@@ -12,7 +12,6 @@ def exists_right_triangle(x: float, y: float, z: float) -> bool:
 def exists_triangle(x, y, z):
   return sorted((x, y, z))[2] <= sorted((x,y,z))[1] + sorted((x, y, z))[0]
 
-
 class TriangleTests(unittest.TestCase):
   def test_right_triangle(self):
 

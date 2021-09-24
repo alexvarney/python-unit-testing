@@ -4,7 +4,6 @@ import unittest
 def sqrt(value: int):
   return value ** 0.5
 
-
 class SqrtTesting(unittest.TestCase):
     
     def test_sqrt(self):
